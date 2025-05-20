@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimal-ui">
+    <meta name="description" content="">
+    <meta name="keywords" content="web app">
+    <meta name="author" content="ZULUDESK">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="4CXoX6ITf1qqF8xgt1f0whFvfUq4xdmnhg7CLdbr">
+    <title>Ghanacologist | Home</title>
+    <title>Ghanacologist </title>
+    <link rel="apple-touch-icon" href="assets/images/logo.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jquery-jvectormap-2.0.5.css" type="text/css" media="screen" />
+    <!-- <script src="assets/js/jquery-jvectormap-2.0.5.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.8/countUp.min.js"></script> -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid px-lg-5 px-2">
+            <a class="navbar-brand" href="/"><img class="img-fluid" src="assets/images/logo.svg"
+                    alt="Ghanacologist-Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="index.html"><img class="img-fluid p-0 m-0"
+                            src="assets/images/logo.svg" width="100px" height="80px" alt="Ghanacologist-Logo"></a>
+                    <button type="button" class="btn-close bg-light shadow rounded-circle text-reset"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end pe-lg-3 flex-grow-1">
+                        <li class="nav-item pe-lg-3 pe-lg-1">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://ghanacologist.com/index">Home</a>
+                        </li>
+                        <li class="nav-item pe-lg-3 pe-lg-1">
+                            <a class="nav-link" href="https://ghanacologist.com/visit">Visiting Ghana?</a>
+                        </li>
+                        <li class="nav-item pe-lg-3 pe-lg-1">
+                            <a class="nav-link" href="https://ghanacologist.com/services">Service Providers</a>
+                        </li>
+                        <li class="nav-item pe-lg-3 pe-lg-1">
+                            <a class="nav-link" href="https://ghanacologist.com/sights">Sights and Sounds</a>
+                        </li>
+                        <li class="nav-item pe-lg-3 pe-lg-1">
+                            <a class="nav-link" href="https://ghanacologist.com/shop">Online Shop</a>
+                        </li>
+                        <!-- <li class="nav-item pe-lg-3 pe-lg-1"> -->
+                        <!-- <a class="nav-link" href="#contact">Contact us</a> -->
+                        <!-- </li> -->
+                    </ul>
+                    <a href="https://ghanacologist-web-app.vercel.app/auth/login"><button
+                            class="btn btn-red shadow text-bold justify-content-center px-lg-4"
+                            type="submit">Login</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container-fluid ps-lg-5">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                            <h1>Welcome to <span id="text-red">Ghanacologist</span></h1>
+                            <h5 class="fw-bold">A platform dedicated to all those who truly wish to study, enjoy, and
+                                know everything related to Ghana.</h5>
+                            <p> Any intrepid traveller who has been around the world should agree that Ghana – the
+                                people, the food, the vibe, the terrain – altogether offers quite a unique experience.
+                                The country, previously known as Gold Coast, has therefore increasingly popped up on the
+                                preferred destination list for many seasoned tourists.</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="1200">
+                            <div class="input-group my-5">
+                                <input type="text" class="form-control rounded-4 p-3" placeholder="Search event here"
+                                    aria-label="search event" aria-describedby="button-addon2">
+                                <button class="btn btn-dark rounded-4" type="button" id="button-addon2">Browse the map
+                                    <img class="ps-1" src="assets/images/map-icon1.svg" width="28px" height="28px"
+                                        alt="arrow-icon"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ">
+                    <div data-aos="zoom-in" data-aos-duration="1300">
+                        <div class="swiper mySwiper d-flex-justify-content-lg-end justify-content-center">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/images/beach.png" class="img-fluid" alt="beach">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/market.png" class="img-fluid" alt="market">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/event1.png" class="img-fluid" alt="event">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/market.png" class="img-fluid" alt="market">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/beach.png" class="img-fluid" alt="beach">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/event2.png" class="img-fluid" alt="event2">
+                                </div>
+                                <div class="swiper-button-next custom-next"></div>
+                                <div class="swiper-button-prev custom-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about-section">
+        <div class="container-fluid ps-lg-5">
+            <div class="row px-0">
+                <div class="col-lg-7 my-auto">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                        <!-- <h5>Welcome to <span class="text-red">Ghanacologist</span></h5> -->
+                        <h2 class="py-lg-0 pt-5">If you have <span class="text-red"> Ghana</span> on your mind,</h1>
+                            <p>then Ghanacologist.com is the one-stop destination for you. Whether you are a first-time
+                                visitor, a seasoned traveller, or a local explorer, we have something for you. We
+                                provide you with comprehensive and current information on all aspects of travel and
+                                entertainment in Ghana. You can find out about the best places to stay, eat, shop, and
+                                have fun in Ghana. You can also learn about the culture, history, and nature of Ghana.
+                                You can also browse our monthly calendar that shows you all the festivals, concerts,
+                                exhibitions, and other events that are happening in Ghana by region.</p>
+                            <p>At <span class="text-red">Ghanacologist</span> we are more than just an informational
+                                website. We are a community of people who love Ghana and want to share our passion and
+                                knowledge with others. You can join our community by signing up for our newsletter,
+                                following us on social media, or becoming a member of our website. As a member, you can
+                                access exclusive content, discounts, deals, and perks from our partners and sponsors.
+                                You can also participate in our referral or loyalty program that rewards you for
+                                inviting your friends and family to join our community, or for using our services
+                                frequently.
+                                Whether you want to know what is happening in Ghana any time of year, or you are
+                                planning a family trip, or are simply out for truly unique experience – your quest
+                                begins here at www.ghanacologist.com.Akwaaba</p>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="assets/images/logo.svg" class="img-fluid p-0 m-0 footer-logo" width="300px"
+                            height="200px" alt="ghana-map">
+                    </div>
+                </div>
+                <div class="col-lg-5 about-img px-0 d-flex justify-content-end">
+                    <img src="assets/images/about-img.svg" class="px-0 mx-0 img-fluid" alt="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-fluid py-3 px-lg-5">
+            <div class="row px-0">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6">
+                    <ul>
+                        <li><a href="#">Contact Us |</a></li>
+                        <li><a href="#">Privacy Policy |</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <form action="" class="">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                                required>
+                            <label for="floatingInput">Enter Email</label>
+                        </div>
+                        <a href="#"><button class="btn btn-red shadow text-bold justify-content-around px-3"
+                                type="submit">Sign up to our newsletter <img class="ps-1"
+                                    src="assets/images/signup-arrow.png" width="30px" height="25px"
+                                    alt="arrow-icon"></button></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script>
+        AOS.init();
+
+
+        // Get the current URL
+        var currentUrl = window.location.href;
+
+        // Get all the nav links
+        var navLinks = document.querySelectorAll(".navbar-nav a");
+
+        // Loop through each link and check if it matches the current URL
+        for (var i = 0; i < navLinks.length; i++) {
+            if (navLinks[i].getAttribute("href") === currentUrl) {
+                navLinks[i].classList.add("active");
+            } else {
+                navLinks[i].classList.remove("active");
+            }
+        }
+
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+    <script src="assets/js/index.js"></script>
+
+    <script>
+        $(function () {
+            $('#world-map').vectorMap({ map: 'world_mill' });
+        });
+    </script>
+    <script src="assets/js/index.js"></script>
+
+    <script>
+        var owl = $('#top-slide');
+        $(document).ready(function () {
+            $('.top-slide').owlCarousel({
+                loop: true,
+                nav: true,
+                margin: 10,
+                pagination: true,
+                autoplay: false,
+                animateOut: 'fadeOut',
+                autoplayHoverPause: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        margin: 10,
+                        nav: true,
+                        dots: true,
+                    },
+                    600: {
+                        items: 1,
+                        margin: 10,
+                    },
+                    1000: {
+                        items: 1.2,
+                        nav: true,
+                        dots: false,
+                    },
+                    1500: {
+                        items: 1.2,
+                        loop: true,
+                        nav: true,
+                        dots: true,
+                    }
+                }
+            })
+            $(".top-slide .owl-prev").html('<img class="left" src="assets/images/arrow-left-dark.png" alt="arrow-left">');
+            $(".top-slide .owl-next").html('<img class="right" src="assets/images/arrow-right-dark.png" alt="arrow-right">');
+
+        });
+
+        // $(document).ready(function(){
+        //   $(".owl-carousel").owlCarousel();
+        // });
+
+        var owl = $('#explore-slide');
+        $(document).ready(function () {
+            $('.explore-slide').owlCarousel({
+                loop: true,
+                nav: true,
+                margin: 150,
+                pagination: true,
+                autoplay: false,
+                animateOut: 'fadeOut',
+                autoplayHoverPause: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        margin: 10,
+                        nav: true,
+                        dots: true,
+                    },
+                    600: {
+                        items: 2,
+                        margin: 10,
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        dots: false,
+                    }
+                    // 1500:{
+                    // items: 3,
+                    // loop: true,
+                    // nav: true,
+                    // dots: true, 
+                    // }
+                }
+            })
+            $(".explore-slide .owl-prev").html('<img class="left" src="assets/images/arrow-left-dark.png" alt="arrow-left">');
+            $(".explore-slide .owl-next").html('<img class="right" src="assets/images/arrow-right-dark.png" alt="arrow-right">');
+
+        });
+
+
+    </script>
+
+
+
+</body>
+
+</html>
